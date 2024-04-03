@@ -1,0 +1,106 @@
+@media only screen and (max-width:1000px){
+    .sec2services .boxes .box {
+        margin-top: 30px;
+        margin: 30PX 4PX;
+        width: 175px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid gray;
+        border-radius: 12px;
+    }
+
+    .section1 .sec1left h1 {
+        margin: 3px;
+        font-size: 35px;
+        margin-top: 44px;
+    }
+}
+
+@media only screen and (max-width:780px){
+
+    .section1 .sec1left {
+        width: 100vw;}
+
+        .section1 .sec1right img {
+            width: 80%;
+        }
+
+    .section1 .sec1left h1 {
+        
+        font-size: 31px;
+        margin-top: 101px;
+    }
+
+    .section1 .sec1left p {
+        color: rgb(60, 56, 56);
+        text-align: center;
+        font-size: 18px;
+        padding: 5px;
+        
+       
+    }
+
+    .section1 .sec1left .btn {
+        width: 148px;
+        height: 31px;
+        border: 2px solid black;
+        border-radius: 14px;
+        background-color: blueviolet;
+    }
+    
+    .sec2services .boxes{
+        flex-direction: column;
+    }
+    .sec2services .boxes .box {
+        margin-top: 30px;
+        margin: 9PX 4PX;
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid gray;
+        border-radius: 12px;
+    }
+
+}
+
+
+@media only screen and (max-width:660px){
+
+    .navbar{
+        height: 50px;
+    }
+
+    .navbar h1{
+        padding: 4px;
+        font-size: 20px;
+    }
+
+    .navbar ul{
+        gap:16px;
+    }
+
+    .section1 .sec1left .btn a{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width:370px){
+    .navbar h1 {
+        font-size: 12px;
+    }
+    .section1 {
+        height: 100vh;
+    }
+
+    .navbar ul {
+        gap: 8px;
+    }
+
+    .section1 .sec1left h1 {
+        font-size: 27px;
+    }
+}

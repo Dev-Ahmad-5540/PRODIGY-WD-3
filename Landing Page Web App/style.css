@@ -1,0 +1,203 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.navbar{
+    background-color: rgb(198, 141, 250);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 60px;
+    
+}
+
+.navbar h1{
+    color: rgb(255, 251, 251);
+    background-color: black;
+   border-radius: 13px;
+    padding: 8px;
+}
+
+.navbar h1:hover{
+    cursor: pointer;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    gap: 74px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul li a:hover{
+    background-color: black;
+    color: yellow;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.section1{
+    display: flex;
+
+    height: 80vh;
+
+}
+
+.section1 .sec1left{
+    width: 50%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.section1 .sec1left h1{
+    margin: 30px;
+    font-size: 50px;
+}
+
+.section1 .sec1left p{
+  
+    color: rgb(60, 56, 56);
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 28px;
+}
+
+.section1 .sec1left .btn{
+    width: 200px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 14px;
+    background-color: blueviolet;
+} 
+
+
+
+
+.section1 .sec1left .btn a{
+    text-decoration: none;
+    font-size: 23px;
+    color: black;
+}
+
+
+.section1 .sec1right{
+    width: 50%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.section1 .sec1right img{
+    width: 50%;
+}
+
+.section2 .sec2services{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12px;
+}
+
+.section2 .sec2services .heading h1{
+    font-size: 40px;
+    margin: 23px 0px;
+}
+.sec2services .boxes{
+    display: flex;
+   
+}
+
+.sec2services .boxes .box {
+    margin-top: 30px;
+    margin: 30PX 4PX;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid gray;
+    border-radius: 12px;
+    
+}
+
+.sec2services .boxes .box img{
+    width: 130px;
+    margin-top: 12px;
+}
+
+.sec2services .boxes .box h1{
+    margin: 10px 0px;
+    font-size: 1.6rem;
+    font-weight: bolder;
+}
+
+.sec2services .boxes .box p{
+    font-size: 20px;
+    margin: 5px 0px;
+}
+
+
+hr{
+    width: 80vw;
+   margin: auto;
+   background-color: rgb(134, 101, 165);
+}
+
+
+.about{
+    display: flex;
+    flex-direction: column;
+  
+    width: 80vw;
+    margin: auto;
+    margin-top: 44px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 44px;
+}
+
+.about h1{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.about p{
+    width: 90%;
+    margin-top: 30px;
+    font-size: 20px;
+    text-align: centers;
+}
+
+footer{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    height: 32px;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
+
